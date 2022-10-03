@@ -1,5 +1,5 @@
 //
-// variables declaration
+// variables Declaration
 //
 let timeBlockEL = document.querySelector(".timeBlock");
 let btnEL = document.querySelector(".btn");
@@ -44,7 +44,7 @@ function renderSavedData() {
 function renderBackgroundColor() {
   let currentTime = parseInt(moment().format("H"));
   let id = document.querySelector("textarea");
-  // let timeEL = parseInt(id.getAttribute("id")); // This is not working, how to get the element ID and parse it as a number
+  // let timeEL = parseInt(id.getAttribute("id"));
   // console.log(timeEL);
 
   // create array of time blocks to loop through
